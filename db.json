@@ -1,0 +1,14 @@
+{
+  "Clientes": [
+    {
+      "id": "0",
+      "nome": "Guilherme Rodrigues",
+      "email": "rodriguesguilerme4@gmail.com",
+      "celular": "31984772684",
+      "Rua": "Rua Bertioga",
+      "numero": "80",
+      "nome da loja": "EcoShop",
+      "senha": "05082005"
+    }
+  ]
+}

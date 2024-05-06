@@ -1,0 +1,79 @@
+/* <uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 900*/
+
+body{
+    background-color: #010317;
+    color: #C8FF78;
+    margin: 0;
+
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-around ;
+    background-color: #C8FF78;
+    align-items: center;
+}
+#logoHeader{
+    width: 300;
+    height: 105px;
+}
+#links{
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+#inputPrincipal{
+    color: #010317;
+    background-color: #C8FF78;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    transition: 1s;
+}
+#inputPrincipal:hover{
+    background-color: #c9ff78cc;
+}
+#bntPrincipal{
+    color: #010317;
+    background-color: #C8FF78;
+    width: 90px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 1s;
+}
+#bntPrincipal:hover{
+    background-color: #c9ff78cc;
+}
+#liksAbaixoHeader{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a3cf62;
+    padding-top: 0px;
+    align-items: center;
+    margin-top: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #576e358d;
+}

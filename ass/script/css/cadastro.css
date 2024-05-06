@@ -1,0 +1,65 @@
+body{
+    background-color: #010317;
+    color: #C8FF78;
+    margin: 0;
+    
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-around ;
+    background-color: #C8FF78;
+    align-items: center;
+}
+#logoHeader{
+    width: 300;
+    height: 105px;
+}
+#links{
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #576e358d;
+}
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    color: #010317;
+    background-color: #C8FF78;
+    border-radius:10px;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #C8FF78;
+    height: 30px;
+}
+@media screen and (max-width: 768px){
+    img{
+        display: none;
+    }
+}
+    
