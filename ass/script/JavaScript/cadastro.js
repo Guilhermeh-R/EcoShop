@@ -14,12 +14,12 @@ const getcadastro = () => {
                 .then(response => response.json())
                 .then(arrayUsuarios => {
                     console.log(arrayUsuarios);
-                    irParaIndex(); // Aqui você redireciona após a requisição POST ser concluída
                 })
                 .catch(error => {
                     console.error('Erro ao fazer a solicitação POST:', error);
                     // Trate o erro conforme necessário
                 });
+                window.location.href = './Login.html';
         }
     });
 }
@@ -73,8 +73,4 @@ const cadastrar = () => {
             return Promise.resolve(null);
         });
     }
-}
-
-const irParaIndex = () => {
-    window.location.href = './Login.html';
 }
