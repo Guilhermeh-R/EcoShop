@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="website icon" type="png" href="/ass/src/2.jpg">
+    <script src="/ass/script/JavaScript/cadastroDeProdutos.js" defer></script>
+    <link rel="stylesheet" href="/ass/script/css/cadastroDeProduto.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img id="logoHeader" src="/ass/src/4.jpg" alt="Logo EcoShop"></a>
+        <nav>
+            <ul id="links" class="links">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <form>
+                <div>
+                    <p>Nome Do Produto</p>
+                    <input type="text" placeholder="Nome Do Produto" id="nome" class="content">
+                </div>
+                <div>
+                    <p>Tipo do Produto</p>
+                    <select placeholder="Tipo do Produto" id="tipo" class="content">
+                        <option value="">Selecione uma categoria</option>
+                        <option value="Automoveis">Automoveis</option>
+                        <option value="Eletrodomesticos">Eletrodomesticos</option>
+                        <option value="Moda">Moda</option>
+                        <option value="Saude">Saude</option>
+                        <option value="outro">outro</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Imagem</p>
+                    <input type="link" placeholder="links" id="img" class="content">
+                </div>
+                <div>
+                    <p>Descrição</p>
+                    <textarea placeholder="Descrição" id="descricao" class="content"></textarea>
+                </div>  
+                <div>
+                    <p>valor</p>
+                    <input type="number" placeholder="R$" id="valor" class="content">
+                </div>
+
+                
+                <button id="btn-cadastro" type="submit" onclick="getProduto()">Cadastrar</button>
+                </form>
+            </section>
+            <section>
+                <a href=""><img src="/ass/src/2.jpg" alt="Logo EcoShop"></a>
+            </section>
+        </article>
+    </main>
+    
+</body>
+</html>
