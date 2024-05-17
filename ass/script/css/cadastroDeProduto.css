@@ -27,24 +27,38 @@ header{
     justify-content: space-around;
     gap: 6rem;
 }
-li{
-    list-style-type: none;
+main {
+    text-align: center;
+    align-items: center;
+    justify-content: center
+    
 }
-a{
-    text-decoration: none;
-}
-a:hover{
-    color: #576e358d;
-}
-article{
+  
+article {
     display: flex;
+    vertical-align: middle;
     align-items: center;
     justify-content: center;
 }
 input{
     text-align: center;
-    width: 200px;
-    height: 20px;
+    width: 250px;
+    height: 40px;
+    color: #010317;
+    background-color: #C8FF78;
+    border-radius:10px;
+}
+#descricao{
+    height: 75px;
+    width: 250px;
+    color: #010317;
+    background-color: #C8FF78;
+    border-radius:10px;
+}
+select{
+    text-align: center;
+    width: 250px;
+    height: 35px;
     color: #010317;
     background-color: #C8FF78;
     border-radius:10px;
@@ -55,11 +69,5 @@ button{
     width: 100%;
     left: 0;
     background-color: #C8FF78;
-    height: 30px;
+    height: 50px;
 }
-@media screen and (max-width: 768px){
-    img{
-        display: none;
-    }
-}
-    

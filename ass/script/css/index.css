@@ -24,7 +24,7 @@ header{
     width: 300;
     height: 105px;
 }
-#links{
+.links{
     display: flex;
     justify-content: space-around;
     gap: 6rem;
